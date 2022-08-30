@@ -1,0 +1,7 @@
+version: '3'
+services:
+  corretto:
+    build:
+      context: ./corretto
+      dockerfile: ./Dockerfile
+    image: klaus/corretto:11-alpine
